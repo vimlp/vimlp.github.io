@@ -17,7 +17,7 @@ const ViMLPDemo = () => {
 
       <section>
         <h2 className="text-[#11497e] text-2xl border-l-4 border-[#16435f] pl-3 mb-3">
-          I. Examples of ViMLP Dataset
+          I. Samples of ViMLP Dataset
         </h2>
 
         <div className="mb-8">
@@ -138,11 +138,11 @@ const ViMLPDemo = () => {
           <h3 className="text-[#11497e] text-xl mb-3">Case 1</h3>
           <AudioPlayer src={AUDIO_PATHS.vimlp.sample4} />
           <p>
-            <span className="text-[#254f5a] font-bold italic">Transcription (Vietnamese pronunciation):</span>
+            <span className="text-[#254f5a] font-bold italic">Source Transcription - Muong (Phonetic Transcription in Vietnamese):</span>
             Thái blang tính ca ni cảo khoảng blơng hao lam ba mường ín ủn đét chiếm hai mưn khảo phẩy bải phần trăm dân số.
           </p>
           <p>
-            <span className="text-[#254f5a] font-bold">Target:</span>
+            <span className="text-[#254f5a] font-bold">Groundtruth Translation - Vietnamese:</span>
             Trên toàn tỉnh dạo này hiện nay có khoảng hơn 230 nghìn trẻ em chiếm 26,7 phần trăm dân số.
           </p>
 
@@ -156,10 +156,18 @@ const ViMLPDemo = () => {
               <thead>
                 <tr>
                   <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">Model</th>
-                  <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">ASR Output</th>
+                  <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">Translation</th>
                 </tr>
               </thead>
               <tbody>
+                <tr className="even:bg-gray-50">
+                  <td className="border border-gray-300 p-2">
+                    <span className="text-[#254f5a] font-bold">Groundtruth</span>
+                  </td>
+                  <td className="border border-gray-300 p-2 text-[#5e6668] italic">
+                    Trên toàn tỉnh dạo này hiện nay có khoảng hơn 230 nghìn trẻ em chiếm 26,7 phần trăm dân số.
+                  </td>
+                </tr>
                 <tr className="even:bg-gray-50">
                   <td className="border border-gray-300 p-2">
                     <span className="text-[#254f5a] font-bold">Hu-Transformer [1] (re-trained)</span>
@@ -209,10 +217,18 @@ const ViMLPDemo = () => {
               <thead>
                 <tr>
                   <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">Augmentation Method</th>
-                  <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">ASR Output</th>
+                  <th className="bg-[#5c80c4] text-white border border-gray-300 p-2 text-left">Translation</th>
                 </tr>
               </thead>
               <tbody>
+                <tr className="even:bg-gray-50">
+                  <td className="border border-gray-300 p-2">
+                    <span className="text-[#254f5a] font-bold">Groundtruth</span>
+                  </td>
+                  <td className="border border-gray-300 p-2 text-[#5e6668] italic">
+                    Trên toàn tỉnh dạo này hiện nay có khoảng hơn 230 nghìn trẻ em chiếm 26,7 phần trăm dân số.
+                  </td>
+                </tr>
                 <tr className="even:bg-gray-50">
                   <td className="border border-gray-300 p-2">
                     <span className="text-[#254f5a] font-bold">No Data Augmentation</span>

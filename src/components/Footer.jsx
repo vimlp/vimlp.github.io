@@ -8,29 +8,19 @@ const Footer = () => {
                 <div>
                     <img src={assets.logo} className='mb-5 w-32' alt="" />
                     <p className='w-full md:w-2/3 text-gray-600'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad porro quod animi quae consequatur error nemo aspernatur magnam natus officia perferendis asperiores velit quisquam optio et mollitia, deleniti nisi id.
                     </p>
                 </div>
                 <div>
-                    <p className='text-xl font-medium mb-5'>COMPANY</p>
                     <ul className='flex flex-col gap-1 text-gray-600'>
                         <li>Home</li>
-                        <li>About us</li>
-                        <li>Delivery</li>
-                        <li>Privacy policy</li>
+                        <li>Data</li>
+                        <li>Demo</li>
                     </ul>
                 </div>
                 <div>
-                    <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
-                    <ul className='flex flex-col gap-1 text-gray-600'>
-                        <li>+84-932-423-540</li>
-                        <li>contact@gmail.com</li>
-                    </ul>
+                    <p className='text-md font-medium mb-5'>University of Infomation Technology - VNUHCM</p>
+
                 </div>
-            </div>
-            <div>
-                <hr />
-                <p className='py-5 text-sm text-center'>Copyright 2024@ forever.com - All Right Reserved.</p>
             </div>
         </div>
     )

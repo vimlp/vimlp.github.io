@@ -173,7 +173,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Hu-Transformer [1] (re-trained)</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái long tính cao khoảng lương 530 nghìn ủn đét chiếm 20 khẩu phái bài phấn 5 dân chủ.
+                    Thái long tính cao <b>khoảng</b> lương 530 <b>nghìn</b> ủn đét <b>chiếm</b> 20 khẩu phái bài phấn 5 dân chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -181,7 +181,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">w2v2-mbart-LNA</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tính ca nhi cao khoảng trên 23 nghìn em đét chiếm 20 khẩu phái 7 phấn lâm 5 dân chủ.
+                    Thái 5 tính ca nhi cao <b>khoảng trên</b> 23 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 phấn lâm 5 dân chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -189,7 +189,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">w2v2-mbart-LNA-Adapters</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tính ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm 5 dân chủ.
+                    Thái 5 tính ca nhi cao <b>khoảng</b> <b>trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm 5 dân chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -197,7 +197,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">w2v2-mbart-LNA-Adapters (AVG 5 ckpts)</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tính ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm 5 dân chủ.
+                    Thái 5 tính ca nhi cao <b>khoảng</b> <b>trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm 5 dân chủ.
                   </td>
                 </tr>
               </tbody>
@@ -234,7 +234,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">No Data Augmentation</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tính ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm 5 dân chủ.
+                    Thái 5 <b>tính</b> ca nhi cao <b>khoảng trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm 5 dân chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -242,7 +242,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Back-translation</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái long tính ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm 5 dân chủ.
+                    Thái long <b>tính</b> ca nhi cao <b>khoảng trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm 5 dân chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -250,7 +250,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Back-translation + Additive Noise</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái long tính ca nhi cao khoảng hơn 253 nghìn em đét chiếm 20 khẩu phái 7 phần lâm lâm dân chủ.
+                    Thái long <b>tính</b> ca nhi cao <b>khoảng hơn</b> 253 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm lâm <b>dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -258,7 +258,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Back-translation + Audio Stretching</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái long tính ca này cao khoảng hơn 253 10 nghìn trẻ em chiếm 20 khẩu phái 7 phần lâm dân chủ.
+                    Thái long <b>tính</b> ca <b>này</b> cao <b>khoảng hơn</b> 253 10 <b>nghìn trẻ em chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm <b>dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -266,7 +266,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Paraphrase</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tỉnh ca này có khoảng trên 230 nghìn trẻ em chiếm 26 phần 7 phần lâm dân chủ.
+                    Thái 5 <b>tỉnh</b> ca <b>này có khoảng trên</b> 230 <b>nghìn trẻ em chiếm</b> 26 <b>phần</b> 7 <b>phần</b> lâm <b>dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -274,7 +274,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Paraphrase + Additive Noise</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tỉnh ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm dân chủ.
+                    Thái 5 <b>tỉnh</b> ca nhi cao <b>khoảng trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm <b>dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -282,7 +282,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Paraphrase + Audio Stretching</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tỉnh ca nhi cao khoảng trên 2530 nghìn em đét chiếm 20 khẩu phái 7 phần lâm dân chủ.
+                    Thái 5 <b>tỉnh</b> ca nhi cao <b>khoảng trên</b> 2530 <b>nghìn em</b> đét <b>chiếm</b> 20 khẩu phái 7 <b>phần</b> lâm <b>dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -290,7 +290,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">BT4ST</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái 5 tỉnh ca này có khoảng hơn 230 nghìn trẻ em chiếm 26 phái 7 phần trăm dân chủ.
+                    Thái 5 <b>tỉnh</b> ca <b>này có khoảng hơn</b> 230 <b>nghìn trẻ em chiếm</b> 26 phái 7 <b>phần trăm dân</b> chủ.
                   </td>
                 </tr>
                 <tr className="even:bg-gray-50">
@@ -298,7 +298,7 @@ const ViMLPDemo = () => {
                     <span className="text-[#254f5a] font-bold">Ensemble</span>
                   </td>
                   <td className="border border-gray-300 p-2 text-[#5e6668] italic">
-                    Thái toàn tỉnh ca này có khoảng trên 230 nghìn trẻ em chiếm 26 phái 7 phần trăm dân chủ.
+                    Thái <b>toàn tỉnh</b> ca <b>này có khoảng trên</b> 230 <b>nghìn trẻ em chiếm</b> 26 phái 7 <b>phần trăm dân</b> chủ.
                   </td>
                 </tr>
               </tbody>

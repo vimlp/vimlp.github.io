@@ -17,10 +17,6 @@ const Footer = () => {
                         <li>Demo</li>
                     </ul>
                 </div>
-                <div>
-                    <p className='text-md font-medium mb-5'>University of Infomation Technology - VNUHCM</p>
-
-                </div>
             </div>
         </div>
     )

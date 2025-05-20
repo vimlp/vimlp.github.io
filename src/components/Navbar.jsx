@@ -44,9 +44,6 @@ export const Navbar = () => {
 
             <div className='flex items-center gap-6'>
                 <div className='group relative'>
-                    <a href="https://github.com/vimlp/ViMLP/tree/main" target="_blank" rel="noopener noreferrer">
-                        <img src={assets.github} className='w-10 cursor-pointer' alt="GitHub" />
-                    </a>
                 </div>
                 <img onClick={() => setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" />
             </div>
